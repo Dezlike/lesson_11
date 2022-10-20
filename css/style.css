@@ -1,0 +1,303 @@
+
+.wraper {
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(70, 78, 78);
+    position: fixed;
+    z-index: 99;
+    font-size: 50px;
+}
+.beetle {
+    width: 100%;
+    height: 1700px;
+    background-color: aqua;
+    
+
+}
+.beetle__item {
+    position: sticky;
+}
+.beetle__item--fd {
+    width:615px;
+    height: 300px;
+    background:rgb(198, 211, 199);
+    border-radius:22% 78% 14% 86% / 100% 83% 17% 0%;
+    border: 3px solid ;
+    box-shadow: 1px 5px 5px ;
+    position:absolute;
+    top: 200px;
+    left: 550px;
+    z-index: 55;
+}
+
+.beetle__horizon{
+    width:375px;
+    height: 200px;
+    border-top: 3px solid;
+    position:absolute;
+    top:125px;
+    left: 23px;
+}
+.beetle__horizon-y{
+    width: 145px;
+    height: 85px;
+    border-radius: 21% 79% 48% 52% / 0% 66% 34% 100%;
+    border-top: 3px solid;
+    position:absolute;
+    top:125px;
+    left: 358px;
+}
+
+.beetle__handle{
+    width: 35px;
+    height: 18px;
+    background:rgb(54, 65, 55);
+    border-radius: 86% 14% 15% 85% / 49% 52% 48% 51%;
+    border-top: 4px solid;
+    border-bottom: 2px solid;
+    position:absolute;
+    top:135px;
+    left: 208px
+}
+.beetle__handle-detail{
+    width: 40px;
+    height: 9px;
+    background:rgb(125, 139, 126);
+    border-radius: 50%;
+    border-top: 2px solid;
+    border-bottom: 3px solid;
+    position:absolute;
+    left: 14px
+}
+.beetle__trunk{
+    width: 175px;
+    height: 120px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+    border-bottom: 4px solid;
+    position:absolute;
+    top:39px;
+    left: 405px;
+}
+
+.beetle__glass-before{
+    width:346px;
+    height: 95px;
+    background:rgb(19, 39, 65) ;
+    border-radius:26% 74% 11% 89% / 97% 75% 25% 3%;
+    border: 4px solid ;
+    position:absolute;
+    top: 3px;
+    left: 60px;
+}
+.beetle__glass-after{
+    width:85px;
+    height: 80px;
+    background:rgb(19, 39, 65) ;
+    border-radius:0% 100% 12% 81% / 100% 67% 33% 0%;
+    border-left: 3px solid ;
+    position:absolute;
+    bottom: -2px;
+    left: 196px;
+}
+.beetle__clearance{
+    width:145px;
+    height: 200px;
+    border-left: 3px solid;
+    position:absolute;
+    top:97px;
+    left: 259px;
+}
+.beetle__threshold{
+    width:320px;
+    height: 15px;
+    background:rgb(61, 71, 62) ;
+    border: 3px solid;
+    position:absolute;
+    top:280px;
+}
+
+.beetle__item--tr {
+    width:373px;
+    height: 210px;
+    background:rgb(198, 211, 199) ;
+    border-radius:78% 22% 0% 100% / 100% 0% 100% 0% ;
+    border: 3px solid ;
+    box-shadow: 1px 5px 5px ;
+    position:absolute;
+    top: 290px;
+    left: 248px;
+    
+}
+.beetle__horizon--tr {
+    width:155px;
+    border-top: 3px solid;
+    position:absolute;
+    top:35px;
+    left: 242px;
+
+}
+.beetle__horizon-x {
+    width:140px;
+    height: 85px;
+    border-radius: 94% 6% 39% 61% / 100% 0% 100% 0%;
+    border-top: 3px solid;
+    position:absolute;
+    top:35px;
+    left: 102px;
+}
+.beetle__item--nz{
+    width:280px;
+    height: 150px;
+    background:rgb(198, 211, 199) ;
+    border-radius:58% 42% 97% 3% / 76% 100% 0% 24%;
+    border: 3px solid ;
+    box-shadow: 1px 5px 5px ;
+    position:absolute;
+    top: 350px;
+    left: 270px;
+    
+}
+.beetle__arc-nz{
+    width:215px;
+    height: 120px;
+    background:rgb(35, 40, 34) ;
+    border-radius:58% 42% 97% 3% / 76% 100% 0% 24%;
+    border: 3px solid ;
+    position:absolute;
+    top: 25px;
+    left: 35px;
+}
+.beetle__wheel{
+    width:160px;
+    height: 160px;
+    background:rgb(255, 255, 255) ;
+    border-radius:50% / 50%;
+    border: 18px solid rgb(0, 0, 0);
+    position:absolute;
+    top: 30px;
+    left:55px;
+
+}
+.beetle__wheel-detail{
+    width:120px;
+    height: 120px;
+    background:rgb(255, 255, 255) ;
+    border-radius:50% / 50%;
+    border: 4px solid rgb(0, 0, 0);
+    position:absolute;
+    top: 2px;
+    left:3px;
+}
+.beetle__wheel-top {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 49% 51% 0% 100% / 50% 100% 0% 50%;
+    background-color: rgb(38, 35, 35);
+    left: 20px;
+    top: 18px;
+}
+.beetle__top-detail{
+    position:absolute;
+    width: 30px;
+    height:30px;
+    border-radius: 49% 51% 0% 100% / 50% 100% 0% 50%;
+    background-color: rgb(7, 7, 7);
+    left: 6px;
+    top: 5px;
+}
+.beetle__wheel-button {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-radius:0% 100% 46% 54% / 0% 46% 54% 100%;
+    background-color: rgb(38, 35, 35);
+    left: 65px;
+    top: 65px;
+}
+.beetle__button-detail{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    border-radius:0% 100% 46% 54% / 0% 46% 54% 100%;
+    background-color: rgb(0, 0, 0);
+    left: 3px;
+    top: 4px;
+}
+.beetle__wheel-left {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-radius:49% 51% 100% 0% / 100% 48% 52% 0%;
+    background-color: rgb(38, 35, 35);
+    left: 65px;
+    top: 18px;
+}
+.beetle__left-detail{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    border-radius:49% 51% 100% 0% / 100% 48% 52% 0%;
+    background-color: rgb(0, 0, 0);
+    left: 3px;
+    top: 6px;
+}
+.beetle__wheel-right {
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    border-radius:100% 0% 48% 52% / 55% 0% 100% 45%;
+    background-color: rgb(38, 35, 35);
+    left: 18px;
+    top: 65px;
+}
+.beetle__right-detail{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    border-radius:100% 0% 48% 52% / 55% 0% 100% 45%;
+    background-color: rgb(0, 0, 0);
+    left: 8px;
+    top: 5px;
+}
+
+.beetle__item--nb {
+    width:280px;
+    height: 150px;
+    background:rgb(198, 211, 198) ;
+    border-radius:39% 61% 0% 100% / 100% 76% 24% 0% ;
+    border: 3px solid ;
+    box-shadow: 1px 5px 5px ;
+    position:absolute;
+    top: 350px;
+    left: 868px;
+    z-index: 56;
+}
+.beetle__arc-nb{
+    width:215px;
+    height: 120px;
+    background: rgb(35, 40, 34);
+    border-radius:39% 61% 0% 100% / 100% 76% 24% 0% ;
+    border: 3px solid ;
+    box-shadow: 1px 5px 5px ;
+    position:absolute;
+    top: 25px;
+    left: 33px;
+    
+    
+}
+.footer{
+
+        width: 100%;
+        height: 170px;
+        background-color: rgb(70, 78, 78);
+        position: sticky;
+        z-index: 99;
+        font-size: 50px;
+}
+
+
+
